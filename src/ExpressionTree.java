@@ -82,6 +82,7 @@ public class ExpressionTree{
 			System.out.print(t + " ");
 		}
     }
+    
    
     public int evaluate(Node t){
         if (t.leftChild == null){

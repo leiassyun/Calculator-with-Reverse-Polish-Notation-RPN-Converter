@@ -10,6 +10,7 @@ public class Main{
             if (input.equals("end")){
                 break;
             }
+            System.out.println("");
             
             ExpressionTree expression = new ExpressionTree(input);
 
@@ -19,7 +20,13 @@ public class Main{
             expression.infix();
             System.out.print("Postfix: " );
             expression.postfix();
-            
+            System.out.println("");
+
+            Converter converter = new Converter(input);
+            String postfix = converter.toPostFix();
+            double answer = PostfixCalculator.evaluate(postfix);
+            System.out.println("Answer is " + String.format("%.2f", answer));
+           System.out.println();
         }
         scn.close();
     }

@@ -1,4 +1,4 @@
-# Calvulator with Reverse Polish Notation (RPN) Converter
+# Calculator with Reverse Polish Notation (RPN) Converter
 This calculator consists of two fundamental steps: firstly, converting an infix expression to a post expression, and secondly, evaluating the resultant postfix expression.
 
 In simple terms, an infix expression is the conventional way we write mathematical expressions, where operators like +,-,*, and / are placed between the operands (e.g., 3 + 4 * 5). 
